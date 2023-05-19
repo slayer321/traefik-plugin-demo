@@ -1,0 +1,9 @@
+displayName: UID Demo
+type: middleware
+
+import: github.com/slayer321/uiddemoplugin
+
+summary: '[Demo] Inject unque id header'
+
+testData:
+  Foo: Bar

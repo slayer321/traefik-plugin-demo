@@ -1,0 +1,24 @@
+api:
+  #dashboard: true
+  insecure: true
+
+# Static configuration
+
+# log:
+#   level: DEBUG
+  
+experimental:
+  localPlugins:
+    example:
+      moduleName: github.com/slayer321/uiddemoplugin
+
+entryPoints:
+  http:
+    address: ":12345"
+    forwardedHeaders:
+      insecure: true
+
+
+providers:
+  file:
+    filename: dynamic-rule.yaml
